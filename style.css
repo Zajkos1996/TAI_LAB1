@@ -1,0 +1,23 @@
+h1 {
+  color: #0000FF;
+  text-align: center;
+}
+
+body {
+  background-color: #B0C4DE;
+}
+
+.nav {
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-position: inside;
+}
+.nav-item{
+  font-size: 21px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
