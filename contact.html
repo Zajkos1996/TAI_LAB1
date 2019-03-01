@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Andrzej Krakowski</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+<h1> Andrzej Krakowski</h1>
+
+<ul class="nav">
+    <li class="nav-item">
+        <a class="nav-link active" href="index.html">HOME</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">BLOG</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">QUIZ</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link " href="contact.html" tabindex="-1" aria-disabled="true">KONTAKT</a>
+    </li>
+</ul>
+<div>
+    <div class="form-group">
+        <label for="inputName">Imię</label>
+        <input type="text" class="form-control" id="inputName" placeholder="Podaj swoje imię">
+    </div>
+    <div class="form-group">
+        <label for="inputSurname">Nazwisko</label>
+        <input type="text" class="form-control" id="inputSurname" placeholder="Podaj swoje nazwisko">
+    </div>
+    <div class="form-group">
+        <label for="inputEmail">Email</label>
+        <input type="text" class="form-control" id="inputEmail" placeholder="Podaj swój email">
+    </div>
+    <fieldset class="form-group">
+        <div class="row">
+            <legend class="col-form-label col-sm-2 pt-0">Płeć</legend>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                <label class="custom-control-label" for="customRadioInline1">Mężczyzna</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                <label class="custom-control-label" for="customRadioInline2">Kobieta</label>
+            </div>
+        </div>
+    </fieldset>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Opis</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="inputAge">Wiek</label>
+        <select class="custom-select" class="form-control" id="inputAge" required>
+            <option value="1"></option>
+            <option value="2">18</option>
+            <option value="3">19</option>
+            <option value="4">20</option>
+            <option value="5">21</option>
+            <option value="6">22</option>
+            <option value="7">23</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="inputAge">Stan cywilny</label>
+        <select class="form-control" class="form-control" id="inputAge">
+        <option></option>
+        <option>Panna</option>
+        <option>Kawaler</option>
+        <option>Żonaty</option>
+        <option>Mężatka</option>
+        </select>
+    </div>
+    <input class="btn btn-primary" type="submit" value="Wyślij" style="margin-left: 20px">
+    <input class="btn btn-primary" type="reset" value="Wyczyść">
+
+
+</div>
+
+</body>
+</html>
