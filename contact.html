@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Andrzej Krakowski</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 </head>
 <body>
@@ -12,7 +12,8 @@
 <div class="navbar">
 
 </div>
-<div>
+<div class="container">
+    <form>
     <div class="form-group">
         <label for="inputName">Imię</label>
         <input type="text" class="form-control" id="inputName" placeholder="Podaj swoje imię">
@@ -64,13 +65,15 @@
         <option>Mężatka</option>
         </select>
     </div>
-    <input class="btn btn-primary" type="submit" value="Wyślij" style="margin-left: 20px">
-    <input class="btn btn-primary" type="reset" value="Wyczyść">
-
+        <div class="button">
+    <input class="btn btn-primary" type="submit" value="Wyślij">
+    <input class="btn btn-primary" type="reset" value="Wyczyść" style="margin-left: 20px;">
+        </div>
+    </form>
 
 </div>
 
 <footer class="stopka">Copyrights © Andrzej Krakowski | 2019</footer>
-<script src="navbar.js"></script>
+<script src="js/navbar.js"></script>
 </body>
 </html>
