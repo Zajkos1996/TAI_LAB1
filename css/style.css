@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
   color: #0000FF;
   text-align: center;
@@ -31,12 +35,19 @@ a {
   justify-content: center;
 }
 .stopka{
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   text-align: center;
-  position:absolute;
+  position:fixed;
   bottom:0;
   width:100%;
-  height:50px;
-  background:#0000FF;
+  height:30px;
+  background:limegreen;
+
+}
+.scroll {
+  position: fixed;
+  bottom: 40px;
+  right: 5px;
+  display: none;
 }
