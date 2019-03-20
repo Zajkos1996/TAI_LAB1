@@ -2,21 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <title>Andrzej Krakowski</title>
+
 </head>
 <body>
-
 <div class="navbar">
 
 </div>
-
-
 <div class="container list">
+    Nr: <h4 class="number"></h4>
     Question: <h4 class="question"></h4>
-    Nr: <h5 class="questionNumber"></h5>
+
     Answers:
     <ul class="list-group">
         <li class="list-group-item"></li>
@@ -56,8 +55,13 @@
     </div>
 </div>
 
+<div class="scroll" onclick="goToTop()">
+    <button class="btn btn-success"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i>Do góry</button>
+</div>
+
 <footer class="stopka">Copyrights © Andrzej Krakowski | 2019</footer>
-<script src="js/script.js"></script>
 <script src="js/navbar.js"></script>
+<script src="js/script.js"></script>
+<script src="js/scroll.js"></script>
 </body>
 </html>
